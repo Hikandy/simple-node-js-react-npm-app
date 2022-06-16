@@ -3,7 +3,7 @@ pipeline {
         docker {
             image 'node'
             args '-p 3000:3000'
-            label 'cent'
+            label 'builder1'
         }
     }
     stages {
